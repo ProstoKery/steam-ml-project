@@ -1,8 +1,8 @@
-   # raw files from Hugging Face (large) - downloaded by src/01_download_data.py
-   data/raw/
-   __pycache__/
-   *.pyc
-   .ipynb_checkpoints/
-   .venv/
-   venv/
-   .DS_Store
+# raw files from Hugging Face (large) - downloaded by src/01_download_data.py
+data/raw/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
