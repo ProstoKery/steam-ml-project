@@ -12,7 +12,7 @@ What makes players rate a Steam game well, and can it be predicted? We combine t
 
 | Part | Scope | Status |
 | --- | --- | --- |
-| Stage 1 | data, exploratory data analysis, research questions | done – [report](reports/stage1/report_stage1.pdf) |
+| Stage 1 | data, exploratory data analysis, research questions | done – [report](reports/stage1/report_stage1_en.pdf) ([Polish version](reports/stage1/raport_etap1_pl.pdf)) |
 | Next | supervised and unsupervised learning, NLP and transformer models, Gradio interface | planned |
 
 ## Data
@@ -42,7 +42,7 @@ src/02_eda_reviews.py     exploratory analysis of dataset 1
 src/03_eda_games.py       exploratory analysis of dataset 2
 src/04_eda_joined.py      analysis of the joined datasets
 src/common.py             shared helpers (paths, charts, statistical tests)
-reports/stage1/           stage 1 report, figures (figures/) and numerical results (results/)
+reports/stage1/           stage 1 report (English and Polish), figures (figures/) and numerical results (results/)
 ```
 
 ## How to reproduce the results
@@ -78,4 +78,4 @@ Figures are saved to `reports/stage1/figures/` and numbers to `reports/stage1/re
 - Among the 30,621 games with at least 50 ratings, the median share of positive ratings is 82%. Free games are rated lower than paid ones, and the genre matters (lowest: Free To Play and simulations).
 - Ratings in both datasets agree (Spearman correlation 0.75 for 361 games). The largest differences are for games whose reception changed over time – e.g. No Man's Sky: 30% "recommended" in reviews from 2016, 83% positive ratings today.
 
-Details and research questions: [reports/stage1/report_stage1.pdf](reports/stage1/report_stage1.pdf).
+Details and research questions: [reports/stage1/report_stage1_en.pdf](reports/stage1/report_stage1_en.pdf). The version submitted for the course is in Polish: [reports/stage1/raport_etap1_pl.pdf](reports/stage1/raport_etap1_pl.pdf).
