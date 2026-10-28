@@ -1,0 +1,167 @@
+{
+  "min_reviews": 20,
+  "min_ratings": 50,
+  "games_in_reviews": 3682,
+  "games_found_in_dataset2": 2750,
+  "game_coverage": 0.746877,
+  "review_coverage": 0.883531,
+  "games_missing_in_dataset2": 932,
+  "reviews_of_games_missing_in_dataset2": 6801,
+  "agreement": {
+    "games": 361,
+    "spearman_rho": 0.754131,
+    "p": 0.0,
+    "mean_difference_pp": 2.184999,
+    "median_abs_difference_pp": 4.507949
+  },
+  "largest_disagreements": [
+    {
+      "item_id": 275850,
+      "name": "No Man's Sky",
+      "n": 179,
+      "recommended": 0.296089,
+      "steam": 0.831303
+    },
+    {
+      "item_id": 307780,
+      "name": "Mortal Kombat X",
+      "n": 43,
+      "recommended": 0.395349,
+      "steam": 0.854672
+    },
+    {
+      "item_id": 236370,
+      "name": "Interstellar Marines",
+      "n": 32,
+      "recommended": 0.90625,
+      "steam": 0.539802
+    },
+    {
+      "item_id": 433850,
+      "name": "Z1 Battle Royale",
+      "n": 20,
+      "recommended": 0.85,
+      "steam": 0.55746
+    },
+    {
+      "item_id": 391460,
+      "name": "WARMODE",
+      "n": 33,
+      "recommended": 0.333333,
+      "steam": 0.620387
+    },
+    {
+      "item_id": 335330,
+      "name": "Brick-Force",
+      "n": 20,
+      "recommended": 0.15,
+      "steam": 0.419718
+    },
+    {
+      "item_id": 311210,
+      "name": "Call of Duty®: Black Ops III",
+      "n": 150,
+      "recommended": 0.593333,
+      "steam": 0.843182
+    },
+    {
+      "item_id": 245170,
+      "name": "Skullgirls 2nd Encore",
+      "n": 66,
+      "recommended": 0.969697,
+      "steam": 0.725112
+    }
+  ],
+  "recommended_free": {
+    "n": 18608,
+    "share": 0.901548,
+    "ci_lo": 0.897184,
+    "ci_hi": 0.905746
+  },
+  "recommended_paid": {
+    "n": 32984,
+    "share": 0.898041,
+    "ci_lo": 0.894729,
+    "ci_hi": 0.901261
+  },
+  "chi2_free_vs_recommended": {
+    "chi2": 1.576596,
+    "p": 0.209252,
+    "df": 1
+  },
+  "recommended_by_genre": {
+    "Action": {
+      "n": 38606,
+      "share": 0.894809,
+      "ci_lo": 0.891709,
+      "ci_hi": 0.89783
+    },
+    "Casual": {
+      "n": 3268,
+      "share": 0.937882,
+      "ci_lo": 0.929082,
+      "ci_hi": 0.945655
+    },
+    "Adventure": {
+      "n": 2864,
+      "share": 0.909218,
+      "ci_lo": 0.89814,
+      "ci_hi": 0.919199
+    },
+    "Indie": {
+      "n": 2506,
+      "share": 0.921389,
+      "ci_lo": 0.910195,
+      "ci_hi": 0.931293
+    },
+    "RPG": {
+      "n": 1634,
+      "share": 0.921665,
+      "ci_lo": 0.907625,
+      "ci_hi": 0.933726
+    },
+    "Strategy": {
+      "n": 1310,
+      "share": 0.917557,
+      "ci_lo": 0.901414,
+      "ci_hi": 0.931259
+    },
+    "Simulation": {
+      "n": 501,
+      "share": 0.834331,
+      "ci_lo": 0.799256,
+      "ci_hi": 0.864318
+    },
+    "Free To Play": {
+      "n": 277,
+      "share": 0.805054,
+      "ci_lo": 0.75436,
+      "ci_hi": 0.847402
+    }
+  },
+  "chi2_genre_vs_recommended": {
+    "chi2": 143.932843,
+    "p": 0.0,
+    "df": 7
+  },
+  "mentions_price_share": 0.090731,
+  "recommended_when_mentions_price": {
+    "n": 4681,
+    "share": 0.807093,
+    "ci_lo": 0.795539,
+    "ci_hi": 0.818143
+  },
+  "recommended_when_no_price_mention": {
+    "n": 46911,
+    "share": 0.908508,
+    "ci_lo": 0.905865,
+    "ci_hi": 0.911083
+  },
+  "mentions_price_free": 0.06379,
+  "mentions_price_paid": 0.10593,
+  "chi2_price_in_text_vs_recommended": {
+    "chi2": 482.301671,
+    "p": 0.0,
+    "df": 1
+  }
+}

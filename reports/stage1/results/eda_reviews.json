@@ -1,0 +1,437 @@
+{
+  "n_reviews": 59305,
+  "n_users": 25458,
+  "n_games": 3682,
+  "missing_per_column": {
+    "user_idx": 0,
+    "item_id": 0,
+    "recommend": 0,
+    "review": 0,
+    "posted_year": 10119,
+    "posted_month": 0,
+    "posted_day": 0,
+    "edited": 0,
+    "helpful_yes": 0,
+    "helpful_total": 0,
+    "funny_count": 0,
+    "posted": 0,
+    "helpful": 0,
+    "funny": 51154,
+    "n_words": 0,
+    "n_chars": 0
+  },
+  "empty_reviews": 38,
+  "duplicate_user_game_pairs": 874,
+  "duplicate_identical_text": 3956,
+  "reviews_per_user": {
+    "count": 25458.0,
+    "mean": 2.329523,
+    "std": 2.080373,
+    "min": 1.0,
+    "25%": 1.0,
+    "50%": 1.0,
+    "75%": 3.0,
+    "max": 20.0
+  },
+  "duplicate_pairs_same_text_share": 1.0,
+  "most_common_identical_texts": {
+    "good game": 101,
+    "good": 100,
+    "great game": 83,
+    "10/10": 77,
+    "Great game": 50,
+    "♥♥♥♥": 48,
+    "yes": 48,
+    ".": 46,
+    "gg": 41,
+    "awesome": 39
+  },
+  "after_cleaning_reviews": 58393,
+  "after_cleaning_users": 25444,
+  "after_cleaning_games": 3682,
+  "recommended_count": 51657,
+  "recommended_share": 0.884644,
+  "recommended_ci95": [
+    0.882027,
+    0.88721
+  ],
+  "reviews_without_year": 9930,
+  "assumed_collection_year": 2016,
+  "reviews_per_year": [
+    {
+      "posted_year": 2010,
+      "n": 66,
+      "recommended": 0.984848
+    },
+    {
+      "posted_year": 2011,
+      "n": 530,
+      "recommended": 0.977358
+    },
+    {
+      "posted_year": 2012,
+      "n": 1201,
+      "recommended": 0.990008
+    },
+    {
+      "posted_year": 2013,
+      "n": 6703,
+      "recommended": 0.957333
+    },
+    {
+      "posted_year": 2014,
+      "n": 21817,
+      "recommended": 0.908191
+    },
+    {
+      "posted_year": 2015,
+      "n": 18146,
+      "recommended": 0.855395
+    },
+    {
+      "posted_year": 2016,
+      "n": 9930,
+      "recommended": 0.818933
+    }
+  ],
+  "chi2_year_vs_recommended": {
+    "chi2": 1219.665013,
+    "p": 0.0,
+    "df": 6
+  },
+  "length_words_summary": {
+    "count": 58393.0,
+    "mean": 38.669738,
+    "std": 81.272768,
+    "min": 1.0,
+    "25%": 5.0,
+    "50%": 14.0,
+    "75%": 37.0,
+    "90%": 91.0,
+    "99%": 382.0,
+    "max": 2667.0
+  },
+  "very_short_up_to_3_words": 0.166047,
+  "test_length_not_recommended_vs_recommended": {
+    "U": 204037473.5,
+    "p": 0.0,
+    "n1": 6736,
+    "n2": 51657,
+    "median_1": 21.0,
+    "median_2": 14.0,
+    "effect_rank_biserial": -0.172759
+  },
+  "language_heuristic": {
+    "English": 0.698765,
+    "too short to tell": 0.229548,
+    "other / unknown": 0.0585,
+    "CJK characters": 0.008648,
+    "Cyrillic (e.g. Russian)": 0.004538
+  },
+  "reviews_per_game_summary": {
+    "count": 3682.0,
+    "mean": 15.859044,
+    "std": 106.2337,
+    "min": 1.0,
+    "50%": 2.0,
+    "90%": 24.0,
+    "99%": 209.95,
+    "max": 3704.0
+  },
+  "games_with_1_review": 1504,
+  "top10_games_share_of_reviews": 0.270358,
+  "top15_games": [
+    {
+      "item_id": 730,
+      "n": 3704
+    },
+    {
+      "item_id": 440,
+      "n": 3691
+    },
+    {
+      "item_id": 4000,
+      "n": 1704
+    },
+    {
+      "item_id": 570,
+      "n": 1540
+    },
+    {
+      "item_id": 218620,
+      "n": 1112
+    },
+    {
+      "item_id": 304930,
+      "n": 1031
+    },
+    {
+      "item_id": 252490,
+      "n": 806
+    },
+    {
+      "item_id": 550,
+      "n": 741
+    },
+    {
+      "item_id": 105600,
+      "n": 729
+    },
+    {
+      "item_id": 221100,
+      "n": 729
+    },
+    {
+      "item_id": 72850,
+      "n": 710
+    },
+    {
+      "item_id": 230410,
+      "n": 589
+    },
+    {
+      "item_id": 49520,
+      "n": 550
+    },
+    {
+      "item_id": 620,
+      "n": 371
+    },
+    {
+      "item_id": 208090,
+      "n": 368
+    }
+  ],
+  "games_min30_reviews": 310,
+  "games_min30_recommended_share_summary": {
+    "count": 310.0,
+    "mean": 0.883963,
+    "std": 0.131647,
+    "min": 0.195652,
+    "25%": 0.842105,
+    "50%": 0.931271,
+    "75%": 0.971388,
+    "max": 1.0
+  },
+  "reviews_with_helpfulness_votes": 0.49124,
+  "reviews_marked_funny": 0.137123,
+  "test_helpful_votes_not_recommended_vs_recommended": {
+    "U": 237120571.5,
+    "p": 0.0,
+    "n1": 6736,
+    "n2": 51657,
+    "median_1": 3.0,
+    "median_2": 0.0,
+    "effect_rank_biserial": -0.362912
+  },
+  "edited_share": 0.103386,
+  "n_tokens": 2115159,
+  "vocabulary_size": 68152,
+  "words_occurring_once": 39566,
+  "most_common_words_without_stopwords": [
+    [
+      "game",
+      60005
+    ],
+    [
+      "like",
+      10616
+    ],
+    [
+      "good",
+      10563
+    ],
+    [
+      "play",
+      10345
+    ],
+    [
+      "fun",
+      10258
+    ],
+    [
+      "great",
+      8968
+    ],
+    [
+      "just",
+      8522
+    ],
+    [
+      "really",
+      6668
+    ],
+    [
+      "games",
+      6260
+    ],
+    [
+      "best",
+      5839
+    ],
+    [
+      "time",
+      5517
+    ],
+    [
+      "played",
+      4449
+    ],
+    [
+      "buy",
+      4209
+    ],
+    [
+      "playing",
+      3979
+    ],
+    [
+      "people",
+      3901
+    ],
+    [
+      "amazing",
+      3848
+    ],
+    [
+      "love",
+      3812
+    ],
+    [
+      "story",
+      3592
+    ],
+    [
+      "awesome",
+      3583
+    ],
+    [
+      "make",
+      3470
+    ]
+  ],
+  "distinctive_words_recommended": [
+    [
+      "great",
+      26.471486
+    ],
+    [
+      "best",
+      23.394715
+    ],
+    [
+      "fun",
+      22.698156
+    ],
+    [
+      "amazing",
+      19.203652
+    ],
+    [
+      "awesome",
+      18.937879
+    ],
+    [
+      "love",
+      18.3243
+    ],
+    [
+      "good",
+      15.922117
+    ],
+    [
+      "hat",
+      13.725361
+    ],
+    [
+      "friends",
+      11.930756
+    ],
+    [
+      "story",
+      10.791604
+    ],
+    [
+      "highly",
+      10.608081
+    ],
+    [
+      "muito",
+      9.107083
+    ],
+    [
+      "life",
+      8.944489
+    ],
+    [
+      "world",
+      8.766599
+    ],
+    [
+      "super",
+      8.748959
+    ]
+  ],
+  "distinctive_words_not_recommended": [
+    [
+      "bad",
+      -44.39758
+    ],
+    [
+      "not",
+      -28.046433
+    ],
+    [
+      "no",
+      -24.296633
+    ],
+    [
+      "worst",
+      -22.235458
+    ],
+    [
+      "update",
+      -21.431527
+    ],
+    [
+      "waste",
+      -21.019219
+    ],
+    [
+      "terrible",
+      -20.91165
+    ],
+    [
+      "boring",
+      -19.638561
+    ],
+    [
+      "money",
+      -19.072211
+    ],
+    [
+      "horrible",
+      -18.954663
+    ],
+    [
+      "overpriced",
+      -18.167878
+    ],
+    [
+      "dlc",
+      -18.063048
+    ],
+    [
+      "pay",
+      -18.041256
+    ],
+    [
+      "fix",
+      -17.388607
+    ],
+    [
+      "broken",
+      -16.900016
+    ]
+  ]
+}

@@ -1,0 +1,10 @@
+======================================================================
+EDA - joined datasets (reviews + games)
+======================================================================
+Games from reviews found in the games dataset: 2750 of 3682 (74.7%); reviews with a matched game: 88.4%
+Agreement (games with >= 20 reviews and >= 50 ratings, n = 361): rho = 0.754, p = 1.54e-67, mean difference = +2.2 pp
+% 'recommended': free 90.2%, paid 89.8%, chi2 = 1.6, p = 2.09e-01
+Reviews mentioning price: 9.1%; % 'recommended' when mentioned 80.7% vs not mentioned 90.9%
+   [figure] reports/stage1/figures/c1_dataset_agreement.png
+   [figure] reports/stage1/figures/c2_recommended_by_features.png
+   [results] reports/stage1/results/eda_joined.json

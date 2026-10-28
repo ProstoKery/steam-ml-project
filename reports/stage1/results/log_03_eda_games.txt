@@ -1,0 +1,29 @@
+======================================================================
+EDA - dataset 2: Steam game metadata
+======================================================================
+Games: 124146, columns: 43, duplicate appid: 0
+   price                      missing   0.0%   zeros  21.3%
+   peak_ccu                   missing   0.0%   zeros  84.1%
+   required_age               missing   0.0%   zeros  99.0%
+   dlc_count                  missing   0.0%   zeros  85.6%
+   metacritic_score           missing   0.0%   zeros  96.6%
+   user_score                 missing   0.0%   zeros 100.0%
+   positive                   missing   0.0%   zeros  35.3%
+   negative                   missing   0.0%   zeros  45.7%
+   achievements               missing   0.0%   zeros  48.6%
+   recommendations            missing   0.0%   zeros  83.1%
+   average_playtime_forever   missing   0.0%   zeros  79.0%
+   median_playtime_forever    missing   0.0%   zeros  79.0%
+   n_supported_languages      missing   0.0%   zeros   6.8%
+Free games: 21.3%; games with >= 50 ratings: 30621 (24.7%); without any rating: 33.2%
+Median positive share (>= 50 ratings): 0.820; 'success' (>= 80%): 55.1%
+Spearman correlation with % positive: {'required age': -0.014, 'owners (estimate)': 0.007, 'median playtime': 0.022, 'number of languages': 0.05, 'number of DLC': 0.108, 'achievements': 0.112, 'price': 0.144, 'number of ratings': 0.175, 'peak players (CCU)': 0.222, 'release year': 0.234}
+Free vs paid (% positive): medians 0.792 vs 0.824, p = 3.80e-32
+Kruskal-Wallis (main genre): H = 549.0, p = 2.28e-114
+Metacritic vs players: rho = 0.585 (n = 4045), p = 0.00e+00
+   [figure] reports/stage1/figures/g1_games_per_year.png
+   [figure] reports/stage1/figures/g2_distributions.png
+   [figure] reports/stage1/figures/g3_genres.png
+   [figure] reports/stage1/figures/g4_correlations.png
+   [figure] reports/stage1/figures/g5_tests.png
+   [results] reports/stage1/results/eda_games.json

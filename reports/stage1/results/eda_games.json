@@ -1,0 +1,535 @@
+{
+  "min_ratings": 50,
+  "success_threshold": 0.8,
+  "n_games": 124146,
+  "n_columns": 43,
+  "duplicate_appid": 0,
+  "missing_and_zeros": {
+    "price": {
+      "missing_%": 0.0,
+      "zeros_%": 21.27495
+    },
+    "peak_ccu": {
+      "missing_%": 0.0,
+      "zeros_%": 84.149308
+    },
+    "required_age": {
+      "missing_%": 0.0,
+      "zeros_%": 98.971372
+    },
+    "dlc_count": {
+      "missing_%": 0.0,
+      "zeros_%": 85.590353
+    },
+    "metacritic_score": {
+      "missing_%": 0.0,
+      "zeros_%": 96.570973
+    },
+    "user_score": {
+      "missing_%": 0.0,
+      "zeros_%": 99.96778
+    },
+    "positive": {
+      "missing_%": 0.0,
+      "zeros_%": 35.285068
+    },
+    "negative": {
+      "missing_%": 0.0,
+      "zeros_%": 45.694585
+    },
+    "achievements": {
+      "missing_%": 0.0,
+      "zeros_%": 48.558149
+    },
+    "recommendations": {
+      "missing_%": 0.0,
+      "zeros_%": 83.13518
+    },
+    "average_playtime_forever": {
+      "missing_%": 0.0,
+      "zeros_%": 78.953007
+    },
+    "median_playtime_forever": {
+      "missing_%": 0.0,
+      "zeros_%": 78.953007
+    },
+    "n_supported_languages": {
+      "missing_%": 0.0,
+      "zeros_%": 6.755755
+    }
+  },
+  "numeric_summary": {
+    "price": {
+      "count": 124146.0,
+      "mean": 4.786,
+      "std": 12.508,
+      "min": 0.0,
+      "25%": 0.55,
+      "50%": 2.39,
+      "75%": 5.39,
+      "99%": 29.99,
+      "max": 999.98
+    },
+    "peak_ccu": {
+      "count": 124146.0,
+      "mean": 53.918,
+      "std": 3706.328,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "99%": 220.0,
+      "max": 1013936.0
+    },
+    "required_age": {
+      "count": 124146.0,
+      "mean": 0.166,
+      "std": 1.646,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "99%": 10.0,
+      "max": 21.0
+    },
+    "dlc_count": {
+      "count": 124146.0,
+      "mean": 0.541,
+      "std": 14.426,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "99%": 7.0,
+      "max": 3703.0
+    },
+    "metacritic_score": {
+      "count": 124146.0,
+      "mean": 2.534,
+      "std": 13.58,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "99%": 80.0,
+      "max": 97.0
+    },
+    "user_score": {
+      "count": 124146.0,
+      "mean": 0.024,
+      "std": 1.386,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "99%": 0.0,
+      "max": 100.0
+    },
+    "positive": {
+      "count": 124146.0,
+      "mean": 1032.103,
+      "std": 27917.759,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 5.0,
+      "75%": 36.0,
+      "99%": 13042.0,
+      "max": 7642084.0
+    },
+    "negative": {
+      "count": 124146.0,
+      "mean": 167.115,
+      "std": 5341.348,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 10.0,
+      "99%": 2110.4,
+      "max": 1173003.0
+    },
+    "achievements": {
+      "count": 124146.0,
+      "mean": 18.011,
+      "std": 140.633,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 2.0,
+      "75%": 19.0,
+      "99%": 100.0,
+      "max": 9821.0
+    },
+    "recommendations": {
+      "count": 124146.0,
+      "mean": 950.117,
+      "std": 21743.392,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "99%": 12223.0,
+      "max": 4830455.0
+    },
+    "average_playtime_forever": {
+      "count": 124146.0,
+      "mean": 205.463,
+      "std": 11148.142,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "99%": 2258.55,
+      "max": 3429544.0
+    },
+    "median_playtime_forever": {
+      "count": 124146.0,
+      "mean": 171.436,
+      "std": 11133.081,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "99%": 1578.0,
+      "max": 3429544.0
+    },
+    "n_supported_languages": {
+      "count": 124146.0,
+      "mean": 5.232,
+      "std": 13.537,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 4.0,
+      "99%": 103.0,
+      "max": 103.0
+    }
+  },
+  "without_release_date": 0,
+  "without_genre": 8419,
+  "without_tags_share": 1.0,
+  "zero_owners_and_no_ratings": 23033,
+  "free_share": 0.21275,
+  "paid_price_summary": {
+    "count": 97734.0,
+    "mean": 6.07957,
+    "std": 13.815004,
+    "min": 0.49,
+    "25%": 1.49,
+    "50%": 3.59,
+    "75%": 6.99,
+    "90%": 11.99,
+    "99%": 34.99,
+    "max": 999.98
+  },
+  "games_without_ratings": 0.331827,
+  "n_ratings_summary": {
+    "count": 124146.0,
+    "mean": 1199.21813,
+    "std": 32434.669589,
+    "min": 0.0,
+    "50%": 7.0,
+    "75%": 48.0,
+    "90%": 366.0,
+    "99%": 15369.8,
+    "max": 8815087.0
+  },
+  "games_min_ratings": 30621,
+  "games_min_ratings_share": 0.246653,
+  "positive_share_summary": {
+    "count": 30621.0,
+    "mean": 0.785315,
+    "std": 0.154542,
+    "min": 0.071429,
+    "25%": 0.700535,
+    "50%": 0.820456,
+    "75%": 0.904762,
+    "max": 1.0
+  },
+  "success_share": 0.551354,
+  "games_per_year": {
+    "1997": 2,
+    "1998": 1,
+    "1999": 2,
+    "2000": 2,
+    "2001": 4,
+    "2002": 1,
+    "2003": 3,
+    "2004": 6,
+    "2005": 7,
+    "2006": 69,
+    "2007": 90,
+    "2008": 158,
+    "2009": 321,
+    "2010": 255,
+    "2011": 260,
+    "2012": 322,
+    "2013": 467,
+    "2014": 1523,
+    "2015": 2515,
+    "2016": 4141,
+    "2017": 5921,
+    "2018": 7461,
+    "2019": 7242,
+    "2020": 8804,
+    "2021": 11067,
+    "2022": 12285,
+    "2023": 14596,
+    "2024": 20031,
+    "2025": 24973,
+    "2026": 1617
+  },
+  "platforms": {
+    "windows": 0.999646,
+    "mac": 0.17307,
+    "linux": 0.127978
+  },
+  "top15_genres": {
+    "Indie": 81746,
+    "Casual": 50886,
+    "Action": 46743,
+    "Adventure": 45726,
+    "Simulation": 24504,
+    "Strategy": 22725,
+    "RPG": 21259,
+    "Free To Play": 12366,
+    "Early Access": 11324,
+    "Sports": 4925,
+    "Racing": 4117,
+    "Massively Multiplayer": 2563,
+    "Utilities": 1083,
+    "Design & Illustration": 583,
+    "Animation & Modeling": 481
+  },
+  "owner_ranges": {
+    "0 - 20000": 75545,
+    "0 - 0": 23033,
+    "20000 - 50000": 11397,
+    "50000 - 100000": 5355,
+    "100000 - 200000": 3454,
+    "200000 - 500000": 2854,
+    "500000 - 1000000": 1154,
+    "1000000 - 2000000": 729,
+    "2000000 - 5000000": 405,
+    "5000000 - 10000000": 125,
+    "10000000 - 20000000": 51,
+    "20000000 - 50000000": 31
+  },
+  "spearman_correlation_matrix": {
+    "% positive": {
+      "% positive": 1.0,
+      "number of ratings": 0.175,
+      "price": 0.144,
+      "peak players (CCU)": 0.222,
+      "owners (estimate)": 0.007,
+      "median playtime": 0.022,
+      "achievements": 0.112,
+      "number of DLC": 0.108,
+      "number of languages": 0.05,
+      "required age": -0.014,
+      "release year": 0.234
+    },
+    "number of ratings": {
+      "% positive": 0.175,
+      "number of ratings": 1.0,
+      "price": 0.136,
+      "peak players (CCU)": 0.633,
+      "owners (estimate)": 0.742,
+      "median playtime": 0.542,
+      "achievements": 0.25,
+      "number of DLC": 0.312,
+      "number of languages": 0.291,
+      "required age": 0.198,
+      "release year": -0.118
+    },
+    "price": {
+      "% positive": 0.144,
+      "number of ratings": 0.136,
+      "price": 1.0,
+      "peak players (CCU)": 0.27,
+      "owners (estimate)": -0.05,
+      "median playtime": 0.261,
+      "achievements": 0.204,
+      "number of DLC": 0.168,
+      "number of languages": 0.184,
+      "required age": 0.066,
+      "release year": 0.279
+    },
+    "peak players (CCU)": {
+      "% positive": 0.222,
+      "number of ratings": 0.633,
+      "price": 0.27,
+      "peak players (CCU)": 1.0,
+      "owners (estimate)": 0.491,
+      "median playtime": 0.463,
+      "achievements": 0.23,
+      "number of DLC": 0.268,
+      "number of languages": 0.31,
+      "required age": 0.157,
+      "release year": 0.142
+    },
+    "owners (estimate)": {
+      "% positive": 0.007,
+      "number of ratings": 0.742,
+      "price": -0.05,
+      "peak players (CCU)": 0.491,
+      "owners (estimate)": 1.0,
+      "median playtime": 0.433,
+      "achievements": 0.142,
+      "number of DLC": 0.222,
+      "number of languages": 0.175,
+      "required age": 0.18,
+      "release year": -0.293
+    },
+    "median playtime": {
+      "% positive": 0.022,
+      "number of ratings": 0.542,
+      "price": 0.261,
+      "peak players (CCU)": 0.463,
+      "owners (estimate)": 0.433,
+      "median playtime": 1.0,
+      "achievements": 0.237,
+      "number of DLC": 0.221,
+      "number of languages": 0.187,
+      "required age": 0.102,
+      "release year": -0.144
+    },
+    "achievements": {
+      "% positive": 0.112,
+      "number of ratings": 0.25,
+      "price": 0.204,
+      "peak players (CCU)": 0.23,
+      "owners (estimate)": 0.142,
+      "median playtime": 0.237,
+      "achievements": 1.0,
+      "number of DLC": 0.319,
+      "number of languages": 0.306,
+      "required age": 0.086,
+      "release year": 0.128
+    },
+    "number of DLC": {
+      "% positive": 0.108,
+      "number of ratings": 0.312,
+      "price": 0.168,
+      "peak players (CCU)": 0.268,
+      "owners (estimate)": 0.222,
+      "median playtime": 0.221,
+      "achievements": 0.319,
+      "number of DLC": 1.0,
+      "number of languages": 0.229,
+      "required age": 0.079,
+      "release year": 0.068
+    },
+    "number of languages": {
+      "% positive": 0.05,
+      "number of ratings": 0.291,
+      "price": 0.184,
+      "peak players (CCU)": 0.31,
+      "owners (estimate)": 0.175,
+      "median playtime": 0.187,
+      "achievements": 0.306,
+      "number of DLC": 0.229,
+      "number of languages": 1.0,
+      "required age": 0.11,
+      "release year": 0.207
+    },
+    "required age": {
+      "% positive": -0.014,
+      "number of ratings": 0.198,
+      "price": 0.066,
+      "peak players (CCU)": 0.157,
+      "owners (estimate)": 0.18,
+      "median playtime": 0.102,
+      "achievements": 0.086,
+      "number of DLC": 0.079,
+      "number of languages": 0.11,
+      "required age": 1.0,
+      "release year": -0.094
+    },
+    "release year": {
+      "% positive": 0.234,
+      "number of ratings": -0.118,
+      "price": 0.279,
+      "peak players (CCU)": 0.142,
+      "owners (estimate)": -0.293,
+      "median playtime": -0.144,
+      "achievements": 0.128,
+      "number of DLC": 0.068,
+      "number of languages": 0.207,
+      "required age": -0.094,
+      "release year": 1.0
+    }
+  },
+  "spearman_with_positive_share": {
+    "required_age": -0.014307,
+    "owners_mid": 0.007325,
+    "median_playtime_forever": 0.021698,
+    "n_supported_languages": 0.049652,
+    "dlc_count": 0.107568,
+    "achievements": 0.11183,
+    "price": 0.143709,
+    "n_ratings": 0.175275,
+    "peak_ccu": 0.221968,
+    "release_year": 0.234128
+  },
+  "tests": {
+    "free_vs_paid_positive_share": {
+      "U": 47738177.0,
+      "p": 0.0,
+      "n1": 4061,
+      "n2": 26560,
+      "median_1": 0.791667,
+      "median_2": 0.824,
+      "effect_rank_biserial": 0.114814
+    },
+    "kruskal_main_genre": {
+      "H": 549.029252,
+      "p": 0.0,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Indie",
+        "Simulation",
+        "RPG",
+        "Strategy",
+        "Free To Play"
+      ],
+      "medians": {
+        "Action": 0.805263,
+        "Adventure": 0.848861,
+        "Casual": 0.839471,
+        "Indie": 0.820833,
+        "Simulation": 0.771084,
+        "RPG": 0.812248,
+        "Strategy": 0.82074,
+        "Free To Play": 0.723034
+      },
+      "counts": {
+        "Action": 12753,
+        "Adventure": 7165,
+        "Casual": 4288,
+        "Indie": 3087,
+        "Simulation": 849,
+        "RPG": 671,
+        "Strategy": 561,
+        "Free To Play": 306
+      }
+    },
+    "spearman_metacritic_vs_players": {
+      "rho": 0.584595,
+      "p": 0.0,
+      "n": 4045
+    },
+    "spearman_price_vs_positive_share": {
+      "rho": 0.143709,
+      "p": 0.0,
+      "n": 30621
+    },
+    "chi2_free_vs_success": {
+      "chi2": 93.579258,
+      "p": 0.0,
+      "df": 1,
+      "success_free": 0.480916,
+      "success_paid": 0.562123
+    }
+  }
+}
