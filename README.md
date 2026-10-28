@@ -8,13 +8,12 @@ What makes players rate a Steam game well, and can it be predicted? We combine t
 59k Steam user reviews labelled "recommended / not recommended" (UCSD, McAuley Lab) and metadata of 124k Steam games
 (FronkonGames). The datasets are joined on the Steam game ID, so we can compare what players write with numbers that describe the game.
 
-## Project stages
+## Project status
 
-| Stage | Scope | Status |
+| Part | Scope | Status |
 | --- | --- | --- |
-| 1 | data, exploratory data analysis, research questions | done – [report](reports/stage1/report_stage1.pdf) |
-| 2 | supervised and unsupervised learning, NLP | planned |
-| 3 | transformer models, Gradio interface, conclusions | planned |
+| Stage 1 | data, exploratory data analysis, research questions | done – [report](reports/stage1/report_stage1.pdf) |
+| Next | supervised and unsupervised learning, NLP and transformer models, Gradio interface | planned |
 
 ## Data
 
